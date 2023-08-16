@@ -1,12 +1,30 @@
-In this project there is an implementation in the c++ language of the algorithm for finding an Euler circle in a graph.
-In the project I built a class for directed and undirected graphs, and also implemented the algorithm for finding an Euler circle given a graph.
+🔄 Euler Circle Finder in C++
+A comprehensive C++ implementation that determines the existence of an Euler circle in both directed and undirected graphs.
 
-main function of the program:
-"Is the graph directed: y/n": print 1
-2. You will receive the following input:
-2.1 the letter y (directed graph) or n (undirected graph)
-2.2 An integer, n, that marks the number of vertices in the graph.
-2.3 An integer, m, which marks the number of arcs in the graph.
-2.4 A series of pairs of numbers from the group {n1,2,..., {that represent the arcs of the graph.
+📖 Description
+This project contains a robust C++ class for handling both directed and undirected graphs. Additionally, the algorithm for detecting an Euler circle given a graph is meticulously implemented, allowing users to quickly determine the presence (or lack) of such circles.
 
-The output: Is there an Euler circle and the vertices of disgust, if the circle does not exist the program will print that there is no Euler circle in the graph
+🚀 Getting Started
+Input
+Is the graph directed?:
+y for a directed graph
+n for an undirected graph
+Number of Vertices: An integer n representing the number of vertices in the graph.
+Number of Arcs: An integer m denoting the number of arcs/edges in the graph.
+Arcs Description: A series of pairs from the set {n1, n2, ...} representing the arcs/edges of the graph.
+Output
+The program will either:
+
+Display the Euler circle with its constituent vertices.
+State that there is no Euler circle present in the graph.
+
+🎈 Usage
+$ ./euler_circle_finder
+Is the graph directed: y/n
+> y
+> 4
+> 4
+> 1 2 2 3 3 4 4 1
+
+🌟 Contributing
+Feel free to raise issues or pull requests if you think something can be improved or enhanced.
